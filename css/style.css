@@ -90,13 +90,11 @@ a {
 }
 
 .casa1{
-	margin-left: 400px;
-	margin-bottom: 20px;
+	margin: 10%;
 }
 
-.casa2{
-	margin-left: 400px;
-	padding: 20px;
+.elmono{
+	margin: 10%;
 }
 
 .texto {
@@ -141,7 +139,6 @@ h4{
 footer{
 	text-align: center;
 }
-
 /*inicio GRID alojamiento*/
 .fotitos{
 	display: grid;
@@ -193,7 +190,8 @@ footer{
 	padding: 10px;
 	font-style: italic;
 	font-size: larger;
-	
+	border-radius: 10px;
+	overflow: scroll;
 }
 
 .descripcion2 {
@@ -205,8 +203,9 @@ footer{
 	padding: 10px;
 	font-style: italic;
 	font-size: larger;
-	
+	border-radius: 10px;
 }
+
 /*fin GRID alojamiento*/
 
 /*inicio GRID CABECERA*/
