@@ -123,11 +123,22 @@ a {
 
 .contacto{
 	text-align: center;
+	padding: 5%;
+
 	width: auto;
 	height: 600px;
 	background-image: url(../imagenes/Cola\ ballena.png);
 	background-size: cover;
 
+}
+
+.input-group{
+	width: 50%;
+	margin-left: 20%;
+}
+
+.btn .btn-primary{
+	margin-left: 0%;
 }
 
 h4{
