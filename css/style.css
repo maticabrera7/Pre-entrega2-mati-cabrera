@@ -25,10 +25,10 @@ a {
  a:hover{
 	color: red;
  }
-
+/*
 .navegacion {
 	
-	display: block;
+	
 	position: relative;
 	bottom: 30px;
 	left: 600px;
@@ -36,6 +36,7 @@ a {
 	top: 0;
 	
 }
+*/
 
 .menu_header{
 	display: flex;
@@ -137,9 +138,6 @@ a {
 	margin-left: 20%;
 }
 
-.btn .btn-primary{
-	margin-left: 0%;
-}
 
 h4{
 	text-align: center;
@@ -245,7 +243,7 @@ footer{
 /*inicio GRID busqueda*/
 .busqueda{
 	display: grid;
-	background-color: beige;
+	
 	grid-template-columns: repeat(3, 33%);
 
 
@@ -254,6 +252,7 @@ footer{
 }
 
 .form1{
+	padding: 10%;
 	grid-area: form1;
 	
 }
