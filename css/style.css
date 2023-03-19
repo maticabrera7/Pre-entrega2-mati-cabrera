@@ -18,38 +18,13 @@ a {
 	color: black;
 	font-weight: 600;
 	text-decoration: none;
-	/*font-size: 1.2rem;
-	line-height: 2rem;*/
+
 }
 
  a:hover{
 	color: red;
  }
-/*
-.navegacion {
-	
-	
-	position: relative;
-	bottom: 30px;
-	left: 600px;
-	position: sticky;
-	top: 0;
-	
-}
 
-
-.menu_header{
-	display: flex;
-	justify-content: space-evenly;
-	
-}
-
-.menu_header li{
-	padding: 10px;
-	border: 1px solid;
-	border-radius: 10px;
-}
-*/
 .description .presentacion {
 	width: 70%;
 	margin: 0 auto;
@@ -90,10 +65,12 @@ a {
 
 .casa1{
 	margin: 10%;
+	font-family: cursive;
 }
 
 .elmono{
 	margin: 10%;
+	font-family: cursive;
 }
 
 .texto {
@@ -123,12 +100,11 @@ a {
 .contacto{
 	text-align: center;
 	padding: 5%;
-
 	width: auto;
 	height: 600px;
 	background-image: url(../imagenes/Cola\ ballena.png);
 	background-size: cover;
-
+	background-position: center;
 }
 
 .input-group{
@@ -146,153 +122,24 @@ h4{
 footer{
 	text-align: center;
 }
-/*inicio GRID alojamiento*/
-.fotitos{
-	display: grid;
-	grid-template-columns: repeat(2, 200px);
-	grid-template-rows: 50px 300px 150px 300px;
-	row-gap: 10px;
-	column-gap: 10px;
 
-	grid-template-areas: 
-	"imagenes imagenes"
-	"descripcion descripcion"
-    "imagenes2 imagenes2"
-    "descripcion2 descripcion2";
-}
-
-
-.imagenes ul{
-    display: flex;
-    justify-content: space-between;
-}
-
-.imagenes2 ul{
-    display: flex;
-    justify-content: space-between;
-}
-
-.imagenes{
-	grid-area: imagenes;
-}
-
-.imagenes2{
-	grid-area: imagenes2;
-}
-
-.descripcion{
-	grid-area: descripcion;
-}
-
-.descripcion2{
-	grid-area: descripcion2;
-}
 
 .descripcion {
-	
-	width: 600px;
-	height: 150px;
-	border: 2px solid;
+
+	width: 90%;
 	margin: 0 auto;
 	padding: 10px;
 	font-style: italic;
 	font-size: larger;
-	border-radius: 10px;
-	overflow: scroll;
 }
 
-.descripcion2 {
-	
-	width: 600px;
-	height: 150px;
-	border: 2px solid;
-	margin: 0 auto;
-	padding: 10px;
-	font-style: italic;
-	font-size: larger;
-	border-radius: 10px;
-}
-
-/*fin GRID alojamiento*/
-
-/*inicio GRID CABECERA*/
 .cabecera_principal{
-	background-color: beige;
 	display: grid;
-	grid-template-columns: repeat(4, 33,3%);
-	row-gap: 50px;
-	column-gap: 50px;
-	grid-template-areas: 	
-		"cabeza cabeza cabeza navega"	
-		;
-
-}
-.cabeza{
-	grid-area: cabeza;
 }
 
-.navega{
-	grid-area: navega;
-
-}
 
 .background{
 	background-image: url(../imagenes/Cola\ ballena.png);
 	background-size: cover;
 	background-position: center;
 }
-
-/*fin GRID CABECERA*/
-
-/*inicio GRID ubicacion
-.ubicacion {
-
-	display: grid;
-	grid-template-columns: repeat(3, 33%);
-	grid-template-rows: repeat(2, 50%);
-	row-gap: 50px;
-	column-gap: 50px;
-	grid-template-areas: 
-		
-		"dato dato mapa mapa"
-		"dato dato mapa mapa"
-	
-		;
-}
-
-.dato{
-	grid-area: dato;
-}
-
-.mapa{
-	grid-area: mapa;
-}
-/*fin GRID ubicacion*/
-
-/*
-
-@media (max-width: 699px){
-
-	.dato{background-color: blue;}
-	
-	.ubicacion{
-		grid-template-rows: repeat(2, auto);
-		grid-template-areas: 
-			"dato dato"
-			"mapa mapa";}
-	
-			
-}
-@media (min-width: 700px){
-
-	.dato{background-color: beige;}
-	
-	.ubicacion{
-		grid-template-rows: repeat(2, 300px);
-		grid-template-areas: 
-			"dato mapa"
-			"dato mapa";}
-	
-			
-}
-*/
