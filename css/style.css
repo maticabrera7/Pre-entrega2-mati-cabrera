@@ -123,12 +123,11 @@ a {
 .contacto{
 	text-align: center;
 	padding: 5%;
-
 	width: auto;
 	height: 600px;
 	background-image: url(../imagenes/Cola\ ballena.png);
 	background-size: cover;
-
+	background-position: center;
 }
 
 .input-group{
@@ -147,49 +146,10 @@ footer{
 	text-align: center;
 }
 /*inicio GRID alojamiento*/
-.fotitos{
-	display: grid;
-	grid-template-columns: repeat(2, 200px);
-	grid-template-rows: 50px 300px 150px 300px;
-	row-gap: 10px;
-	column-gap: 10px;
 
-	grid-template-areas: 
-	"imagenes imagenes"
-	"descripcion descripcion"
-    "imagenes2 imagenes2"
-    "descripcion2 descripcion2";
-}
-
-
-.imagenes ul{
-    display: flex;
-    justify-content: space-between;
-}
-
-.imagenes2 ul{
-    display: flex;
-    justify-content: space-between;
-}
-
-.imagenes{
-	grid-area: imagenes;
-}
-
-.imagenes2{
-	grid-area: imagenes2;
-}
-
-.descripcion{
-	grid-area: descripcion;
-}
-
-.descripcion2{
-	grid-area: descripcion2;
-}
 
 .descripcion {
-	
+	/*
 	width: 600px;
 	height: 150px;
 	border: 2px solid;
@@ -199,21 +159,13 @@ footer{
 	font-size: larger;
 	border-radius: 10px;
 	overflow: scroll;
-}
-
-.descripcion2 {
-	
-	width: 600px;
-	height: 150px;
-	border: 2px solid;
+*/
+	width: 90%;
 	margin: 0 auto;
 	padding: 10px;
 	font-style: italic;
 	font-size: larger;
-	border-radius: 10px;
 }
-
-/*fin GRID alojamiento*/
 
 /*inicio GRID CABECERA*/
 .cabecera_principal{
