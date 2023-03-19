@@ -52,8 +52,6 @@ a {
 
 .description .presentacion {
 	width: 70%;
-	/*overflow: scroll;
-	border: 2px solid;*/
 	margin: 0 auto;
 	padding: 10px;
 	font-style: italic;
@@ -240,28 +238,13 @@ footer{
 
 /*fin GRID CABECERA*/
 
-/*inicio GRID busqueda*/
+
 .busqueda{
-	display: grid;
 	
-	grid-template-columns: repeat(3, 33%);
-
-
-	grid-template-areas: 	
-		"prefe form1 form1"
+	margin-left: 20%;
 }
 
-.form1{
-	padding: 10%;
-	grid-area: form1;
-	
-}
 
-.prefe{
-	grid-area: prefe;
-}
-
-/*fin GRID busqueda*/
 
 /*inicio GRID ubicacion*/
 .ubicacion {
