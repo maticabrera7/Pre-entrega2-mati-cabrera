@@ -158,27 +158,10 @@ footer{
 	font-size: larger;
 }
 
-/*inicio GRID CABECERA
 .cabecera_principal{
-	background-color: beige;
 	display: grid;
-	grid-template-columns: repeat(4, 33,3%);
-	row-gap: 50px;
-	column-gap: 50px;
-	grid-template-areas: 	
-		"cabeza cabeza cabeza navega"	
-		;
-
-}
-.cabeza{
-	grid-area: cabeza;
 }
 
-.navega{
-	grid-area: navega;
-
-}
-*/
 
 .background{
 	background-image: url(../imagenes/Cola\ ballena.png);
