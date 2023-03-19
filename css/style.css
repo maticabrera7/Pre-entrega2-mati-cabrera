@@ -14,23 +14,13 @@ header{
 	display: inline;
 }
 
-a {
-	color: black;
-	font-weight: 600;
-	text-decoration: none;
-
-}
-
- a:hover{
-	color: red;
- }
-
 .description .presentacion {
 	width: 70%;
 	margin: 0 auto;
 	padding: 10px;
-	font-style: italic;
+	font-family: cursive;
 	font-size: larger;
+
 }
 
 .busqueda{
