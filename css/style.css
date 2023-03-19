@@ -20,6 +20,9 @@ header{
 	padding: 10px;
 	font-family: cursive;
 	font-size: larger;
+	margin-bottom: 3%;
+	border-radius: 10px;
+	background-color: white;
 
 }
 
@@ -29,10 +32,10 @@ header{
 	
 }
 
-.ubicacion{
-	background-size: cover;
-	background-image: url(../Imagenes/Cola\ ballena1.jpg);
-	padding: 50px;
+.la .ubicacion{
+	font-family: cursive;
+	background-color: white;
+	border-radius: 10px;
 }
 
 .mapa .gps{
