@@ -34,7 +34,16 @@ header{
 
 .la .ubicacion{
 	font-family: cursive;
-	background-color: white;
+	font-size: large;
+	color: white;
+	border-radius: 10px;
+}
+
+
+.los .clientes{
+	font-family: cursive;
+	font-size: large;
+	color: white;
 	border-radius: 10px;
 }
 
