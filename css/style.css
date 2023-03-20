@@ -147,6 +147,11 @@ footer{
 
 .cabecera_principal{
 	display: grid;
+	height: 50px;
+    width: 100%;
+	background-size: cover;
+	font-style: italic;
+
 }
 
 
