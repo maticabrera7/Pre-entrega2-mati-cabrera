@@ -27,8 +27,11 @@ header{
 }
 
 .busqueda{
-
-	text-align: center;
+		text-align: center;
+		margin-top: 30px;
+		width: auto;
+		background-size: cover;
+		background-position: center;
 	
 }
 
@@ -136,8 +139,7 @@ footer{
 }
 
 .cabecera_principal{
-	display: grid;
-	height: 50px;
+
     width: 100%;
 	background-size: cover;
 	font-style: italic;
