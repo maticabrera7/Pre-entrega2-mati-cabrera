@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+	/*overflow: auto;*/
+}
+
+header{
+    height: 50px;
+    width: 100%;
+	background-size: cover;
+	font-style: italic;
+	display: inline;
+}
+
+
+.description {
+	.presentacion {
+	width: 70%;
+	margin: 0 auto;
+	padding: 10px;
+	font-family: cursive;
+	font-size: larger;
+	margin-bottom: 3%;
+	border-radius: 10px;
+	background-color: white;}
+}
+
+.busqueda{
+		text-align: center;
+		margin-top: 30px;
+		width: auto;
+		background-size: cover;
+		background-position: center;
+	
+}
+
+
+.la {
+    .ubicacion{
+	font-family: cursive;
+	font-size: large;
+	color: white;
+	border-radius: 10px;}
+}
+
+
+.los {
+    .clientes{
+	font-family: cursive;
+	font-size: large;
+	color: white;
+	border-radius: 10px;}  
+}
+
+.mapa {
+    .gps{
+	margin-left: 70%;
+	border: 2px solid black;
+	border-radius: 10px;}
+}
+
+
+.dato{
+	
+	background-color: aqua;
+	width: 600px;
+	height: 200px;
+	margin: 0 auto;
+	padding: 10px;
+	font-style: italic;
+	font-size: larger;
+	border-radius: 10px;
+}
+
+
+.casa1{
+	margin: 10%;
+	font-family: cursive;
+}
+
+.elmono{
+	margin: 10%;
+	font-family: cursive;
+}
+
+.texto {
+	width: 600px;
+	height: 150px;
+	/*overflow: scroll;
+	border: 2px solid;*/
+	margin: 0 auto;
+	padding: 10px;
+	font-style: italic;
+	font-size: larger;
+}
+
+
+.comentarios {
+    .coment {
+	padding: 30px;
+	width: 600px;
+	height: 150px;
+	/*overflow: scroll;*/
+	border: 2px solid;
+	margin: 0 auto;
+	padding: 10px;
+	font-style: italic;
+	font-size: larger;
+	border-radius: 10px;}
+}
+
+
+.contacto{
+	text-align: center;
+	margin-top: 30px;
+	width: auto;
+	height: 600px;
+	background-image: url(../imagenes/Cola\ ballena.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.input-group{
+	width: 50%;
+	margin-left: 20%;
+}
+
+
+h4{
+	text-align: center;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+
+footer{
+	text-align: center;
+}
+
+
+.descripcion {
+	width: 90%;
+	margin: 0 auto;
+	padding: 10px;
+	font-style: italic;
+	font-size: larger;
+}
+
+.cabecera_principal{
+
+    width: 100%;
+	background-size: cover;
+	font-style: italic;
+
+}
+
+.background{
+	background-image: url(../imagenes/Cola\ ballena.png);
+	background-size: cover;
+	background-position: center;
+}
