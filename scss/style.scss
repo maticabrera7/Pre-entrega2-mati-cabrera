@@ -8,22 +8,6 @@
 	/*overflow: auto;*/
 }
 
-body{
-	@if $vista == "desktop" {
-		@media only screen and (min-with:1024px){
-			p {font-size: $pdesktop;}
-		}
-	} 
-	@else if $vista == "mobile" {
-		@media only screen and (max-with:767px){
-			p {font-size: $pmobile; font-family: $fontstyleIcursive;}
-		}
-	}
-	@else {
-		p{font-size: 1rem;}
-	}
-}
-
 
 header{
     height: 50px;
@@ -49,10 +33,25 @@ header{
 		font-family: $fontstyleIcursive;
 		font-size: $fontsizebig;
 	}
+
+	@if ($vista == "desktop") {
+		@media only screen and (min-with:1024px){
+			p {font-size: $pdesktop;}
+		}
+	
+	} 
+	@else if $vista == "mobile" {
+		@media only screen and (max-with:767px){
+			p {font-family: $fontstyleIcursive;}			
+		}
+	
+	}
+	@else {
+		p{font-size: 1rem;}
+	}
 }
 
 }
-
 
 .la {
     .ubicacion{
