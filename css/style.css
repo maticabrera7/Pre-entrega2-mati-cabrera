@@ -6,6 +6,10 @@
   /*overflow: auto;*/
 }
 
+body p {
+  font-size: 1rem;
+}
+
 header {
   height: 50px;
   width: 100%;

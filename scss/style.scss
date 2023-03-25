@@ -8,6 +8,21 @@
 	/*overflow: auto;*/
 }
 
+body{
+	@if $vista == desktop {
+		@media only screen and (min-with:1024px){
+			p{font-size: $pdesktop;}
+		}
+	} 
+	@else if $vista == mobile {
+		@media only screen and (max-with:767px){
+			p{font-size: $pmobile; font-family: cursive;} 
+		}
+	}
+	@else {p{font-size: 1rem;}}
+}
+
+
 header{
     height: 50px;
     width: 100%;
@@ -76,7 +91,7 @@ header{
 
 
 .casa1{
-	margin: 10%;
+
 	font-family: cursive;
 }
 
