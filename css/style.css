@@ -6,8 +6,11 @@
   /*overflow: auto;*/
 }
 
-body p {
-  font-size: 1rem;
+@media only screen and (max-with: 767px) {
+  body p {
+    font-size: 1rem;
+    font-family: cursive;
+  }
 }
 
 header {
@@ -65,7 +68,6 @@ header {
 }
 
 .casa1 {
-  margin: 10%;
   font-family: cursive;
 }
 
