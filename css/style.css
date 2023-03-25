@@ -1,3 +1,15 @@
+/*cambio de texto mobil*/
+@media only screen and (max-with: 767px) {
+  p {
+    font-family: cursive;
+  }
+}
+/*cambio de background*/
+@media only screen and (max-with: 767px) {
+  p {
+    font-family: cursive;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -7,8 +19,7 @@
 }
 
 header {
-  height: 50px;
-  width: 100%;
+  margin-bottom: auto;
   background-size: cover;
   font-style: italic;
   display: inline;
@@ -18,27 +29,24 @@ header {
   width: 70%;
   margin: 0 auto;
   padding: 10px;
-  /*font-family: cursive;*/
-  font-size: larger;
-  margin-bottom: 3%;
+  font-family: cursive;
+  font-size: 30px;
+  margin-bottom: 5%;
   border-radius: 10px;
-  background-color: white;
 }
 .description .presentacion h2 {
   font-family: cursive;
-  font-size: 1.2rem;
-}
-@media only screen and (max-with: 767px) {
-  .description .presentacion p {
-    font-family: cursive;
-  }
+  font-size: 50px;
 }
 
 .la .ubicacion {
   font-family: cursive;
-  font-size: large;
-  color: white;
-  border-radius: 10px;
+}
+.la .ubicacion h2 {
+  font-size: 50px;
+}
+.la .ubicacion p {
+  font-size: 30px;
 }
 
 .los .clientes {
@@ -129,7 +137,7 @@ footer {
 }
 
 .background {
-  background-image: url(../imagenes/Cola\ ballena.png);
+  background-image: url(../imagenes/ladrillos.jpg);
   background-size: cover;
   background-position: center;
 }
