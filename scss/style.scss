@@ -37,15 +37,6 @@ header{
 
 }
 
-.busqueda{
-		text-align: center;
-		margin-top: 30px;
-		width: auto;
-		background-size: cover;
-		background-position: center;
-	
-}
-
 
 .la {
     .ubicacion{
@@ -124,7 +115,7 @@ header{
 
 .contacto{
 	text-align: center;
-	margin-top: 30px;
+	padding: 10%;
 	width: auto;
 	height: 600px;
 	background-image: url(../imagenes/Cola\ ballena.png);
@@ -170,6 +161,14 @@ footer{
 	background-image: url(../imagenes/Cola\ ballena.png);
 	background-size: cover;
 	background-position: center;
+
+	.busqueda{
+		padding: 10%;
+		text-align: center;
+		width: auto;
+		background-size: cover;
+		background-position: center;}
+
 }
 
 @import "variables"
