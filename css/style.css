@@ -94,16 +94,6 @@ header {
   border-radius: 10px;
 }
 
-.contacto {
-  text-align: center;
-  padding: 10%;
-  width: auto;
-  height: 600px;
-  background-image: url(../imagenes/Cola\ ballena.png);
-  background-size: cover;
-  background-position: center;
-}
-
 .input-group {
   width: 50%;
   margin-left: 20%;
@@ -144,6 +134,10 @@ footer {
   width: auto;
   background-size: cover;
   background-position: center;
+}
+.background .contacto {
+  padding: 10%;
+  height: 600px;
 }
 
 /*# sourceMappingURL=style.css.map */
