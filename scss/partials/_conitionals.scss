@@ -5,7 +5,9 @@
             .description {
                 .presentacion {
                     .fw-bold{
-                        font-size: $pdesktop;}
+                        font-size: $pdesktop;
+                        font-family: $fontstyleIcursive;
+                    }
                 }
             }	
         }
@@ -18,13 +20,17 @@
             .description {
                 .presentacion {
                     .fw-bold{
-                        font-size: $pdesktop;}
+                        font-size: $pmobile;
+                        font-family: $fontstyleIcursive
+                    }
                 }
             }	
             .la {
                 .ubicacion {
                     .fw-bold{
-                        font-size: $pdesktop;}
+                        font-size: $pmobile;
+                        font-family: $fontstyleIcursive
+                    }
                 }
             } }
         }
