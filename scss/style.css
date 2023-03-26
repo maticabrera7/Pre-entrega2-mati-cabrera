@@ -5,22 +5,6 @@
   }
 }
 /*cambio de background*/
-.header {
-  background-image: url(../imagenes/invierno\ 4.jpg);
-}
-
-<<<<<<< HEAD
-.description .presentacion {
-	width: 70%;
-	margin: 0 auto;
-	padding: 10px;
-	font-family: cursive;
-	font-size: larger;
-	margin-bottom: 3%;
-	border-radius: 10px;
-	background-color: white;
-
-=======
 * {
   margin: 0;
   padding: 0;
@@ -29,8 +13,9 @@
   /*overflow: auto;*/
 }
 
-.header {
+header {
   height: 450px;
+  background-image: url(../imagenes/invierno\ 4.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -47,7 +32,6 @@
 .description .presentacion h2 {
   font-family: cursive;
   font-size: 50px;
->>>>>>> dev
 }
 
 .la .ubicacion {
@@ -66,77 +50,57 @@
   border-radius: 10px;
 }
 
-/* anulado 26/3
-
-.mapa {
-    .gps{
-	margin-left: 70%;
-	border: 2px solid black;
-	border-radius: 10px;}
+.mapa .gps {
+  margin-left: 70%;
+  border: 2px solid black;
+  border-radius: 10px;
 }
 
-
-.dato{
-
-	background-color: aqua;
-	width: 600px;
-	height: 200px;
-	margin: 0 auto;
-	padding: 10px;
-	font-style: italic;
-	font-size: larger;
-	border-radius: 10px;
+.dato {
+  background-color: aqua;
+  width: 600px;
+  height: 200px;
+  margin: 0 auto;
+  padding: 10px;
+  font-style: italic;
+  font-size: larger;
+  border-radius: 10px;
 }
-*/
+
 .casa1 {
-  margin: 5%;
+  margin: 10%;
   font-family: cursive;
-}
-.casa1 p {
-  font-size: 50px;
-}
-.casa1 .descripcion p {
-  font-size: 30px;
 }
 
 .elmono {
-  margin: 5%;
+  margin: 10%;
   font-family: cursive;
 }
-.elmono p {
-  font-size: 50px;
-}
-.elmono .descripcion p {
-  font-size: 30px;
-}
 
-/* anulado 26/3
 .texto {
-	width: 600px;
-	height: 150px;
-	/*overflow: scroll;
-	border: 2px solid;
-	margin: 0 auto;
-	padding: 10px;
-	font-style: italic;
-	font-size: larger;
+  width: 600px;
+  height: 150px;
+  /*overflow: scroll;
+  border: 2px solid;*/
+  margin: 0 auto;
+  padding: 10px;
+  font-style: italic;
+  font-size: larger;
 }
 
-
-.comentarios {
-    .coment {
-	padding: 30px;
-	width: 600px;
-	height: 150px;
-	/*overflow: scroll;
-	border: 2px solid;
-	margin: 0 auto;
-	padding: 10px;
-	font-style: italic;
-	font-size: larger;
-	border-radius: 10px;}
+.comentarios .coment {
+  padding: 30px;
+  width: 600px;
+  height: 150px;
+  /*overflow: scroll;*/
+  border: 2px solid;
+  margin: 0 auto;
+  padding: 10px;
+  font-style: italic;
+  font-size: larger;
+  border-radius: 10px;
 }
-*/
+
 .input-group {
   width: 50%;
   margin-left: 20%;
@@ -181,6 +145,4 @@ footer {
 .background .contacto {
   padding: 5%;
   height: 600px;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

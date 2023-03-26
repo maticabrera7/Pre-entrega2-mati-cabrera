@@ -1,0 +1,188 @@
+@import "partials/variables";
+@import "partials/conitionals";
+
+*{
+    margin: 0;
+    padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+	/*overflow: auto;*/
+}
+
+
+.header{
+	height: 450px;
+
+	background-position: center;
+	background-size: cover;
+	
+}
+
+.description {
+	.presentacion {
+	width: 70%;
+	margin: 0 auto;
+	padding: 10px;
+	font-family: $fontstyleIcursive;
+	font-size: $fontsizemedium;
+	margin-bottom: 5%;
+	border-radius: 10px;
+
+	h2 {
+		font-family: $fontstyleIcursive;
+		font-size: $fontsizebig;
+	}
+}
+
+}
+
+.la {
+    .ubicacion{
+	font-family: cursive;
+	
+	h2 {
+		font-size: $fontsizebig;
+	}
+
+	p{
+		font-size: $fontsizemedium;
+	}
+}
+}
+
+
+.los {
+    .clientes{
+	font-family: $fontstyleIcursive;
+	font-size: large;
+	border-radius: 10px;}  
+}
+
+/* anulado 26/3
+
+.mapa {
+    .gps{
+	margin-left: 70%;
+	border: 2px solid black;
+	border-radius: 10px;}
+}
+
+
+.dato{
+	
+	background-color: aqua;
+	width: 600px;
+	height: 200px;
+	margin: 0 auto;
+	padding: 10px;
+	font-style: italic;
+	font-size: larger;
+	border-radius: 10px;
+}
+*/
+
+
+.casa1{
+	margin: 5%;
+	font-family: $fontstyleIcursive;
+	p {
+	font-size: $fontsizebig;
+	}
+	.descripcion p {
+		font-size: $fontsizemedium;
+	}
+
+}
+
+.elmono{
+	margin: 5%;
+	font-family: $fontstyleIcursive;
+	p {
+		font-size: $fontsizebig;
+		}
+		.descripcion p {
+			font-size: $fontsizemedium;
+		}	
+}
+
+/* anulado 26/3
+.texto {
+	width: 600px;
+	height: 150px;
+	/*overflow: scroll;
+	border: 2px solid;
+	margin: 0 auto;
+	padding: 10px;
+	font-style: italic;
+	font-size: larger;
+}
+
+ 
+.comentarios {
+    .coment {
+	padding: 30px;
+	width: 600px;
+	height: 150px;
+	/*overflow: scroll;
+	border: 2px solid;
+	margin: 0 auto;
+	padding: 10px;
+	font-style: italic;
+	font-size: larger;
+	border-radius: 10px;}
+}
+*/
+
+.input-group{
+	width: 50%;
+	margin-left: 20%;
+}
+
+
+h4{
+	text-align: center;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+
+footer{
+	text-align: center;
+}
+
+
+.descripcion {
+	width: 90%;
+	margin: 0 auto;
+	padding: 10px;
+	font-style: italic;
+	font-size: larger;
+}
+
+.cabecera_principal{
+
+    width: 100%;
+	background-size: cover;
+	font-style: italic;
+
+}
+
+.background{
+/*	background-image: url(../imagenes/arena.jpg); */
+	background-size: cover;
+	background-position: center;
+
+	.busqueda{
+		padding: 3%;
+		text-align: center;
+		width: auto;
+		background-size: cover;
+		background-position: center;}
+
+	.contacto{
+
+			padding: 5%;
+			height: 600px;}
+
+}
+
