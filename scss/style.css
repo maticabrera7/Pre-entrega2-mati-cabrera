@@ -29,7 +29,6 @@ header {
   margin-bottom: 5%;
   border-radius: 10px;
 }
-
 .description .presentacion h2 {
   font-family: cursive;
   font-size: 50px;
@@ -38,11 +37,9 @@ header {
 .la .ubicacion {
   font-family: cursive;
 }
-
 .la .ubicacion h2 {
   font-size: 50px;
 }
-
 .la .ubicacion p {
   font-size: 30px;
 }
@@ -138,7 +135,6 @@ footer {
   background-size: cover;
   background-position: center;
 }
-
 .background .busqueda {
   padding: 3%;
   text-align: center;
@@ -146,10 +142,7 @@ footer {
   background-size: cover;
   background-position: center;
 }
-
 .background .contacto {
   padding: 5%;
   height: 600px;
-} 
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
