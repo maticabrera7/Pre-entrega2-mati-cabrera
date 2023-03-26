@@ -20,17 +20,13 @@
 
 @if ($season =="summer") {
 		
-    @media only screen and (min-with:1024px){
-        p {font-size: $pdesktop;}
-    }
+    
 
 } 
 @else if ($season =="winter") {
-    @media only screen and (max-with:767px){
-        p {font-family: cursive;}			
-    }
+ 
 }
 
 @else {
-    p{font-size: 1rem;}
+   
 }

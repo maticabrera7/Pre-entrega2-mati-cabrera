@@ -11,10 +11,11 @@
 
 
 header{
-	margin-bottom: auto;
+	height: 450px;
+	background-image: url(../imagenes/invierno\ 4.jpg);
+	background-position: center;
 	background-size: cover;
-	font-style: italic;
-	display: inline;
+	
 }
 
 .description {
@@ -54,7 +55,6 @@ header{
     .clientes{
 	font-family: cursive;
 	font-size: large;
-	color: white;
 	border-radius: 10px;}  
 }
 
@@ -150,12 +150,12 @@ footer{
 }
 
 .background{
-	background-image: url(../imagenes/ladrillos.jpg);
+/*	background-image: url(../imagenes/arena.jpg); */
 	background-size: cover;
 	background-position: center;
 
 	.busqueda{
-		padding: 10%;
+		padding: 3%;
 		text-align: center;
 		width: auto;
 		background-size: cover;
@@ -163,8 +163,7 @@ footer{
 
 	.contacto{
 
-			padding: 10%;
-			
+			padding: 5%;
 			height: 600px;}
 
 }
