@@ -18,15 +18,19 @@
 
 /*cambio de background*/
 
-@if ($season =="summer") {
-		
-    
-
-} 
-@else if ($season =="winter") {
- 
+@if ($season == "winter") {
+   .header {
+    background-image: url(../imagenes/invierno\ 4.jpg);
+}
+}
+@else if ($season == "summer") {
+    .header {
+        background-image: url(../imagenes/lobitos.png);
+}
 }
 
 @else {
-   
+	.header {
+        background-image: url(../imagenes/invierno\ 4.jpg);	 
+    }  
 }
