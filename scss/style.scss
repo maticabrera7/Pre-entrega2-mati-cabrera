@@ -30,21 +30,17 @@
 		font-family: $fontstyleIcursive;
 	}
 }
-
 }
 
 .la {
     .ubicacion{
 	font-family: cursive;
-
 	h2 {
 		font-size: $fontsizemedium;
 	}
-
 	p{
 		font-size: $fontsizesmall;
 	}
-	
 }
 }
 
@@ -55,30 +51,6 @@
 	font-size: large;
 	border-radius: 10px;}  
 }
-
-/* anulado 26/3
-
-.mapa {
-    .gps{
-	margin-left: 70%;
-	border: 2px solid black;
-	border-radius: 10px;}
-}
-
-
-.dato{
-	
-	background-color: aqua;
-	width: 600px;
-	height: 200px;
-	margin: 0 auto;
-	padding: 10px;
-	font-style: italic;
-	font-size: larger;
-	border-radius: 10px;
-}
-*/
-
 
 .casa1{
 	margin: 5%;
@@ -103,34 +75,6 @@
 			font-size: $fontsizemedium;
 		}	
 }
-
-/* anulado 26/3
-.texto {
-	width: 600px;
-	height: 150px;
-	/*overflow: scroll;
-	border: 2px solid;
-	margin: 0 auto;
-	padding: 10px;
-	font-style: italic;
-	font-size: larger;
-}
-
- 
-.comentarios {
-    .coment {
-	padding: 30px;
-	width: 600px;
-	height: 150px;
-	/*overflow: scroll;
-	border: 2px solid;
-	margin: 0 auto;
-	padding: 10px;
-	font-style: italic;
-	font-size: larger;
-	border-radius: 10px;}
-}
-*/
 
 .input-group{
 	width: 50%;
