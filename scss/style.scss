@@ -1,5 +1,6 @@
 @import "partials/variables";
 @import "partials/conitionals";
+@import "partials/mixin";
 
 *{
     margin: 0;
@@ -9,13 +10,10 @@
 	/*overflow: auto;*/
 }
 
-
 .header{
 	height: 450px;
-
 	background-position: center;
 	background-size: cover;
-	
 }
 
 .description {
@@ -23,14 +21,13 @@
 	width: 70%;
 	margin: 0 auto;
 	padding: 10px;
-	font-family: $fontstyleIcursive;
-	font-size: $fontsizemedium;
+/*	font-family: $fontstyleIcursive;
+	font-size: $pmobile;*/
 	margin-bottom: 5%;
 	border-radius: 10px;
 
 	h2 {
 		font-family: $fontstyleIcursive;
-		font-size: $fontsizebig;
 	}
 }
 
@@ -39,14 +36,15 @@
 .la {
     .ubicacion{
 	font-family: cursive;
-	
+
 	h2 {
-		font-size: $fontsizebig;
+		font-size: $fontsizemedium;
 	}
 
 	p{
-		font-size: $fontsizemedium;
+		font-size: $fontsizesmall;
 	}
+	
 }
 }
 
@@ -152,7 +150,8 @@ footer{
 
 
 .descripcion {
-	width: 90%;
+
+	@include sizes(90%, 100%);	
 	margin: 0 auto;
 	padding: 10px;
 	font-style: italic;
@@ -161,7 +160,8 @@ footer{
 
 .cabecera_principal{
 
-    width: 100%;
+	@include sizes(100%, 100%);
+
 	background-size: cover;
 	font-style: italic;
 
@@ -183,6 +183,9 @@ footer{
 
 			padding: 5%;
 			height: 600px;}
-
 }
 
+.cartas {
+	padding: 5%;
+	background: linear-gradient(to top, rgb(0, 172, 175) 15%, white 85%);
+}

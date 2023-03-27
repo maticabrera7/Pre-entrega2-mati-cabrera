@@ -1,6 +1,7 @@
 /*cambio de texto mobil*/
-@media only screen and (max-with: 767px) {
-  p {
+@media only screen and (min-with: 1024px) {
+  .background .description .presentacion .fw-bold {
+    font-size: 3rem;
     font-family: cursive;
   }
 }
@@ -39,14 +40,17 @@
   width: 70%;
   margin: 0 auto;
   padding: 10px;
-  font-family: cursive;
-  font-size: 30px;
+  /*	font-family: $fontstyleIcursive;
+  	font-size: $pmobile;*/
   margin-bottom: 5%;
   border-radius: 10px;
 }
 .description .presentacion h2 {
   font-family: cursive;
+<<<<<<< HEAD
   font-size: 50px;
+>>>>>>> dev
+=======
 >>>>>>> dev
 }
 
@@ -54,10 +58,10 @@
   font-family: cursive;
 }
 .la .ubicacion h2 {
-  font-size: 50px;
+  font-size: 30px;
 }
 .la .ubicacion p {
-  font-size: 30px;
+  font-size: 15px;
 }
 
 .los .clientes {
@@ -154,6 +158,7 @@ footer {
 
 .descripcion {
   width: 90%;
+  height: 100%;
   margin: 0 auto;
   padding: 10px;
   font-style: italic;
@@ -162,6 +167,7 @@ footer {
 
 .cabecera_principal {
   width: 100%;
+  height: 100%;
   background-size: cover;
   font-style: italic;
 }
@@ -181,6 +187,11 @@ footer {
 .background .contacto {
   padding: 5%;
   height: 600px;
+}
+
+.cartas {
+  padding: 5%;
+  background: linear-gradient(to top, rgb(0, 172, 175) 15%, white 85%);
 }
 
 /*# sourceMappingURL=style.css.map */

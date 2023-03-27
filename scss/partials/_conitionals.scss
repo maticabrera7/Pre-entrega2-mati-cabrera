@@ -1,16 +1,40 @@
 /*cambio de texto mobil*/
 @if ($vista =="desktop") {
-		
     @media only screen and (min-with:1024px){
-        p {font-size: $pdesktop;}
+        .background{
+            .description {
+                .presentacion {
+                    .fw-bold{
+                        font-size: $pdesktop;
+                        font-family: $fontstyleIcursive;
+                    }
+                }
+            }	
+        }
+        } 
     }
 
-} 
 @else if ($vista =="mobile") {
-    @media only screen and (max-with:767px){
-        p {font-family: cursive;}			
+    @media only screen and (min-with:764px){
+        .background{
+            .description {
+                .presentacion {
+                    .fw-bold{
+                        font-size: $pmobile;
+                        font-family: $fontstyleIcursive
+                    }
+                }
+            }	
+            .la {
+                .ubicacion {
+                    .fw-bold{
+                        font-size: $pmobile;
+                        font-family: $fontstyleIcursive
+                    }
+                }
+            } }
+        }
     }
-}
 
 @else {
     p{font-size: 1rem;}
