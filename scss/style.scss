@@ -53,14 +53,14 @@
 }
 
 .casa1{
+	width: 150px;
 	margin: 5%;
-	
 	font-family: $fontstyleIcursive;
 	p {
 	font-size: $fontsizemedium;
 	}
 	.descripcion p {
-		font-size: $fontsizesmall;
+		font-size: $fontsizemedium;
 	}
 
 }
@@ -69,7 +69,7 @@
 	margin: 5%;
 	font-family: $fontstyleIcursive;
 	p {
-		font-size: $fontsizebig;
+		font-size: $fontsizemedium;
 		}
 		.descripcion p {
 			font-size: $fontsizemedium;

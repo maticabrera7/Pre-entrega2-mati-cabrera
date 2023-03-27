@@ -54,6 +54,7 @@
 }
 
 .casa1 {
+  width: 150px;
   margin: 5%;
   font-family: cursive;
 }
@@ -61,7 +62,7 @@
   font-size: 30px;
 }
 .casa1 .descripcion p {
-  font-size: 15px;
+  font-size: 30px;
 }
 
 .elmono {
@@ -69,7 +70,7 @@
   font-family: cursive;
 }
 .elmono p {
-  font-size: 50px;
+  font-size: 30px;
 }
 .elmono .descripcion p {
   font-size: 30px;
