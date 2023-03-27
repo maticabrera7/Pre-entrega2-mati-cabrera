@@ -1,5 +1,4 @@
 @import "partials/variables";
-@import "partials/conitionals";
 @import "partials/mixin";
 
 *{
@@ -7,7 +6,6 @@
     padding: 0;
 	list-style: none;
 	box-sizing: border-box;
-	/*overflow: auto;*/
 }
 
 .header{
@@ -21,25 +19,20 @@
 	width: 70%;
 	margin: 0 auto;
 	padding: 10px;
-/*	font-family: $fontstyleIcursive;
-	font-size: $pmobile;*/
+	font-family: $fontstyleIcursive;
+	font-size: $fontsizemedium;
 	margin-bottom: 5%;
 	border-radius: 10px;
 
-	h2 {
-		font-family: $fontstyleIcursive;
-	}
 }
 }
 
 .la {
     .ubicacion{
-	font-family: cursive;
-	h2 {
-		font-size: $fontsizemedium;
-	}
+	font-family: $fontstyleIcursive;
+	
 	p{
-		font-size: $fontsizesmall;
+		font-size: $fontsizemedium;
 	}
 }
 }
@@ -53,7 +46,7 @@
 }
 
 .casa1{
-	
+
 	margin: 5%;
 	font-family: $fontstyleIcursive;
 	p {
@@ -113,10 +106,9 @@ footer{
 }
 
 .background{
-/*	background-image: url(../imagenes/arena.jpg); */
 	background-size: cover;
 	background-position: center;
-
+	background: linear-gradient(to top, rgb(0, 172, 175) 15%, white 85%);
 	.busqueda{
 		padding: 3%;
 		text-align: center;
@@ -135,3 +127,4 @@ footer{
 	background: linear-gradient(to top, rgb(0, 172, 175) 15%, white 85%);
 }
 
+@import "partials/conitionals";

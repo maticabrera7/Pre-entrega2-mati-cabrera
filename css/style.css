@@ -1,21 +1,8 @@
-/*cambio de texto mobil*/
-@media only screen and (min-with: 1024px) {
-  .background .description .presentacion .fw-bold {
-    font-size: 3rem;
-    font-family: cursive;
-  }
-}
-/*cambio de background*/
-.header {
-  background-image: url(../imagenes/invierno\ 4.jpg);
-}
-
 * {
   margin: 0;
   padding: 0;
   list-style: none;
   box-sizing: border-box;
-  /*overflow: auto;*/
 }
 
 .header {
@@ -28,23 +15,17 @@
   width: 70%;
   margin: 0 auto;
   padding: 10px;
-  /*	font-family: $fontstyleIcursive;
-  	font-size: $pmobile;*/
+  font-family: cursive;
+  font-size: 20px;
   margin-bottom: 5%;
   border-radius: 10px;
-}
-.description .presentacion h2 {
-  font-family: cursive;
 }
 
 .la .ubicacion {
   font-family: cursive;
 }
-.la .ubicacion h2 {
-  font-size: 30px;
-}
 .la .ubicacion p {
-  font-size: 15px;
+  font-size: 20px;
 }
 
 .los .clientes {
@@ -54,15 +35,14 @@
 }
 
 .casa1 {
-  width: 150px;
   margin: 5%;
   font-family: cursive;
 }
 .casa1 p {
-  font-size: 30px;
+  font-size: 20px;
 }
 .casa1 .descripcion p {
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .elmono {
@@ -70,10 +50,10 @@
   font-family: cursive;
 }
 .elmono p {
-  font-size: 30px;
+  font-size: 20px;
 }
 .elmono .descripcion p {
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .input-group {
@@ -108,9 +88,9 @@ footer {
 }
 
 .background {
-  /*	background-image: url(../imagenes/arena.jpg); */
   background-size: cover;
   background-position: center;
+  background: linear-gradient(to top, rgb(0, 172, 175) 15%, white 85%);
 }
 .background .busqueda {
   padding: 3%;
@@ -127,6 +107,18 @@ footer {
 .cartas {
   padding: 5%;
   background: linear-gradient(to top, rgb(0, 172, 175) 15%, white 85%);
+}
+
+/*cambio de texto mobil*/
+@media only screen and (min-with: 1024px) {
+  .background .description .presentacion .fw-bold {
+    font-size: 3rem;
+    font-family: cursive;
+  }
+}
+/*cambio de background*/
+.header {
+  background-image: url(../imagenes/invierno\ 4.jpg);
 }
 
 /*# sourceMappingURL=style.css.map */
