@@ -82,12 +82,13 @@
 
 .casa1{
 	margin: 5%;
+	
 	font-family: $fontstyleIcursive;
 	p {
-	font-size: $fontsizebig;
+	font-size: $fontsizemedium;
 	}
 	.descripcion p {
-		font-size: $fontsizemedium;
+		font-size: $fontsizesmall;
 	}
 
 }
@@ -188,4 +189,8 @@ footer{
 .cartas {
 	padding: 5%;
 	background: linear-gradient(to top, rgb(0, 172, 175) 15%, white 85%);
+}
+
+.card {
+	transform: scaleX(1.2);
 }

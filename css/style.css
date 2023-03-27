@@ -80,10 +80,10 @@
   font-family: cursive;
 }
 .casa1 p {
-  font-size: 50px;
+  font-size: 30px;
 }
 .casa1 .descripcion p {
-  font-size: 30px;
+  font-size: 15px;
 }
 
 .elmono {
@@ -175,6 +175,10 @@ footer {
 .cartas {
   padding: 5%;
   background: linear-gradient(to top, rgb(0, 172, 175) 15%, white 85%);
+}
+
+.card {
+  transform: scaleX(1.2);
 }
 
 /*# sourceMappingURL=style.css.map */
