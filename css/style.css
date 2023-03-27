@@ -10,18 +10,6 @@
   background-image: url(../imagenes/invierno\ 4.jpg);
 }
 
-<<<<<<< HEAD
-.description .presentacion {
-	width: 70%;
-	margin: 0 auto;
-	padding: 10px;
-	font-family: cursive;
-	font-size: larger;
-	margin-bottom: 3%;
-	border-radius: 10px;
-	background-color: white;
-
-=======
 * {
   margin: 0;
   padding: 0;
@@ -47,11 +35,6 @@
 }
 .description .presentacion h2 {
   font-family: cursive;
-<<<<<<< HEAD
-  font-size: 50px;
->>>>>>> dev
-=======
->>>>>>> dev
 }
 
 .la .ubicacion {
