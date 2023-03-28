@@ -19,8 +19,6 @@
 	width: 70%;
 	margin: 0 auto;
 	padding: 10px;
-	font-family: $fontstyleIcursive;
-	font-size: $fontsizemedium;
 	margin-bottom: 5%;
 	border-radius: 10px;
 
@@ -29,11 +27,11 @@
 
 .la {
     .ubicacion{
-	font-family: $fontstyleIcursive;
-	
-	p{
-		font-size: $fontsizemedium;
-	}
+		width: 100%;
+		margin: 0 auto;
+		padding: 5px;
+		margin-bottom: 5%;
+
 }
 }
 
@@ -46,7 +44,10 @@
 }
 
 .casa1{
-
+	.casa{
+		@include sizes(70%, 70%);
+		margin-left: 15%;
+	}
 	margin: 5%;
 	font-family: $fontstyleIcursive;
 	p {
@@ -59,6 +60,10 @@
 }
 
 .elmono{
+	.mono{
+		@include sizes(70%, 70%);
+		margin-left: 15%;
+	}
 	margin: 5%;
 	font-family: $fontstyleIcursive;
 	p {
