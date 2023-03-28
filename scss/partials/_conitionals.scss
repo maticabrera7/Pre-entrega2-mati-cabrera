@@ -1,9 +1,12 @@
 /*cambio de texto mobil*/
 @if ($vista =="desktop") {
-    @media only screen and (min-with:1024px){
+    @media only screen and (min-width:1024px){
         .background{
             .description {
                 .presentacion {
+                    h2{
+                        font-size: $fontsizebig;
+                        font-family: $fontstyleIcursive;}
                     .fw-bold{
                         font-size: $pdesktop;
                         font-family: $fontstyleIcursive;
@@ -11,30 +14,47 @@
                 }
             }	
         }
+        .la {
+            .ubicacion {
+                h2{
+                    font-size: $fontsizebig;
+                    font-family: $fontstyleIcursive;}
+                .fw-bold{
+                    font-size: $pdesktop;
+                    font-family: $fontstyleIcursive
+                }
+            }
+        } 
         } 
     }
 
 @else if ($vista =="mobile") {
-    @media only screen and (max-with:764px){
+    @media only screen and (max-width:764px){
         .background{
             .description {
                 .presentacion {
+                    h2{
+                        font-size: $fontsizemedium;
+                        font-family: $fontstyleIcursive;}
                     .fw-bold{
                         font-size: $pmobile;
-                        font-family: $fontstyleIcursive
+                        font-family: $fontstyleIcursive;
                     }
                 }
-            }	
+            }}	
             .la {
                 .ubicacion {
+                    h2{
+                        font-size: $fontsizemedium;
+                        font-family: $fontstyleIcursive;}
                     .fw-bold{
                         font-size: $pmobile;
                         font-family: $fontstyleIcursive
                     }
                 }
-            } }
+            } 
         }
-    }
+        }
 
 @else {
     p{font-size: 1rem;}
@@ -45,16 +65,19 @@
 @if ($season == "winter") {
    .header {
     background-image: url(../imagenes/invierno\ 4.jpg);
+
 }
 }
 @else if ($season == "summer") {
     .header {
         background-image: url(../imagenes/lobitos.png);
+
 }
 }
 
 @else {
 	.header {
         background-image: url(../imagenes/invierno\ 4.jpg);	 
+       
     }  
 }

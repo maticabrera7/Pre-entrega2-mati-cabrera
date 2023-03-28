@@ -15,17 +15,15 @@
   width: 70%;
   margin: 0 auto;
   padding: 10px;
-  font-family: cursive;
-  font-size: 20px;
   margin-bottom: 5%;
   border-radius: 10px;
 }
 
 .la .ubicacion {
-  font-family: cursive;
-}
-.la .ubicacion p {
-  font-size: 20px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 5px;
+  margin-bottom: 5%;
 }
 
 .los .clientes {
@@ -38,6 +36,11 @@
   margin: 5%;
   font-family: cursive;
 }
+.casa1 .casa {
+  width: 70%;
+  height: 70%;
+  margin-left: 15%;
+}
 .casa1 p {
   font-size: 20px;
 }
@@ -48,6 +51,11 @@
 .elmono {
   margin: 5%;
   font-family: cursive;
+}
+.elmono .mono {
+  width: 70%;
+  height: 70%;
+  margin-left: 15%;
 }
 .elmono p {
   font-size: 20px;
@@ -110,9 +118,21 @@ footer {
 }
 
 /*cambio de texto mobil*/
-@media only screen and (min-with: 1024px) {
+@media only screen and (min-width: 1024px) {
+  .background .description .presentacion h2 {
+    font-size: 30px;
+    font-family: cursive;
+  }
   .background .description .presentacion .fw-bold {
-    font-size: 3rem;
+    font-size: 20px;
+    font-family: cursive;
+  }
+  .la .ubicacion h2 {
+    font-size: 30px;
+    font-family: cursive;
+  }
+  .la .ubicacion .fw-bold {
+    font-size: 20px;
     font-family: cursive;
   }
 }
