@@ -25,6 +25,19 @@
                 }
             }
         } 
+
+        .los {
+            .clientes {
+                h2{
+                    font-size: $fontsizebig;
+                    font-family: $fontstyleIcursive;}
+                .fw-bold{
+                    font-size: $pdesktop;
+                    font-family: $fontstyleIcursive
+                }
+            }
+        } 
+
         } 
     }
 
@@ -44,6 +57,18 @@
             }}	
             .la {
                 .ubicacion {
+                    h2{
+                        font-size: $fontsizemedium;
+                        font-family: $fontstyleIcursive;}
+                    .fw-bold{
+                        font-size: $pmobile;
+                        font-family: $fontstyleIcursive
+                    }
+                }
+            } 
+
+            .los {
+                .clientes {
                     h2{
                         font-size: $fontsizemedium;
                         font-family: $fontstyleIcursive;}
