@@ -9,6 +9,7 @@
 }
 
 .header{
+	margin-top: 3%;
 	height: 450px;
 	background-position: center;
 	background-size: cover;
@@ -34,23 +35,15 @@
 
 }
 }
-
-
-.los {
-    .clientes{
-	font-family: $fontstyleIcursive;
-	font-size: large;
-	border-radius: 10px;}  
-}
-
 .casa1{
 	.casa{
 		@include sizes(70%, 70%);
 		margin-left: 15%;
 	}
-	margin: 5%;
+
 	font-family: $fontstyleIcursive;
 	p {
+	padding: 3%;
 	font-size: $fontsizemedium;
 	}
 	.descripcion p {
@@ -113,7 +106,7 @@ footer{
 .background{
 	background-size: cover;
 	background-position: center;
-	background: linear-gradient(to top, rgb(0, 172, 175) 15%, white 85%);
+	background: linear-gradient(to top, rgb(109, 237, 239) 15%, rgb(220, 201, 106) 85%);
 	.busqueda{
 		padding: 3%;
 		text-align: center;
