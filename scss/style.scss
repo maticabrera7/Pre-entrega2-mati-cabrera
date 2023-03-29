@@ -106,7 +106,8 @@ footer{
 .background{
 	background-size: cover;
 	background-position: center;
-	background: linear-gradient(to top, rgb(109, 237, 239) 15%, rgb(220, 201, 106) 85%);
+	background: linear-gradient(to top, rgb(0, 225, 255) 25%, white 75%);
+
 	.busqueda{
 		padding: 3%;
 		text-align: center;
@@ -118,6 +119,11 @@ footer{
 
 			padding: 5%;
 			height: 600px;}
+}
+
+.clientes {
+	margin-top: 2%;
+
 }
 
 .cartas {
