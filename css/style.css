@@ -6,8 +6,8 @@
 }
 
 .header {
-  margin-top: 3%;
-  height: 450px;
+  margin-top: 2.8%;
+  height: 470px;
   background-position: center;
   background-size: cover;
 }
@@ -114,6 +114,10 @@ footer {
 .cartas {
   padding: 5%;
   background: linear-gradient(to top, rgb(0, 172, 175) 15%, white 85%);
+}
+
+.form-control {
+  border: 2px solid;
 }
 
 /*cambio de texto mobil*/
