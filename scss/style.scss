@@ -131,4 +131,8 @@ footer{
 	background: linear-gradient(to top, rgb(0, 172, 175) 15%, white 85%);
 }
 
+.form-control{
+	border: 2px solid;
+}
+
 @import "partials/conitionals";

@@ -116,6 +116,10 @@ footer {
   background: linear-gradient(to top, rgb(0, 172, 175) 15%, white 85%);
 }
 
+.form-control {
+  border: 2px solid;
+}
+
 /*cambio de texto mobil*/
 @media only screen and (min-width: 1024px) {
   .background .description .presentacion h2 {
