@@ -28,6 +28,7 @@
 }
 
 .casa1 {
+  margin: 3%;
   font-family: cursive;
 }
 .casa1 .casa {
@@ -36,7 +37,6 @@
   margin-left: 15%;
 }
 .casa1 p {
-  padding: 3%;
   font-size: 20px;
 }
 .casa1 .descripcion p {
@@ -106,6 +106,14 @@ footer {
   padding: 5%;
   height: 600px;
 }
+.background h1 {
+  margin-top: 1%;
+  font-size: 50px;
+  text-align: center;
+}
+.background .contacto .input-group {
+  margin-left: 17%;
+}
 
 .clientes {
   margin-top: 2%;
@@ -122,7 +130,6 @@ footer {
 
 h1 {
   font-family: cursive;
-  text-align: center;
 }
 
 .input-group {
