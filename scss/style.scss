@@ -135,7 +135,15 @@ footer{
 .form-control{
 	border: 2px solid;
 }
-	
+
+h1{
+	font-family: $fontstyleIcursive;
+	text-align: center
+}
+
+.input-group{
+	width: 70%
+}
 
 
 @import "partials/conitionals";
