@@ -120,6 +120,15 @@ footer {
   border: 2px solid;
 }
 
+h1 {
+  font-family: cursive;
+  text-align: center;
+}
+
+.input-group {
+  width: 70%;
+}
+
 /*cambio de texto mobil*/
 @media only screen and (min-width: 1024px) {
   .background .description .presentacion h2 {
