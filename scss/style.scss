@@ -108,6 +108,10 @@ footer{
 	background-position: center;
 	background: linear-gradient(to top, rgb(0, 225, 255) 25%, white 75%);
 
+	.breadcrumb{
+		margin-left: 1%;
+	}
+
 	.busqueda{
 		padding: 3%;
 		text-align: center;
