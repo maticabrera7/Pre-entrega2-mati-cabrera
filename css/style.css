@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -17,7 +18,7 @@
   margin: 0 auto;
   padding: 10px;
   margin-bottom: 5%;
-  border-radius: 10px;
+  font-family: "Encode Sans", sans-serif;
 }
 
 .la .ubicacion {
@@ -29,7 +30,7 @@
 
 .casa1 {
   margin: 3%;
-  font-family: cursive;
+  font-family: "Encode Sans", sans-serif;
 }
 .casa1 .casa {
   width: 70%;
@@ -45,7 +46,7 @@
 
 .elmono {
   margin: 3%;
-  font-family: cursive;
+  font-family: "Encode Sans", sans-serif;
 }
 .elmono .mono {
   width: 70%;
@@ -79,7 +80,6 @@ footer {
   height: 100%;
   margin: 0 auto;
   padding: 10px;
-  font-style: italic;
   font-size: larger;
 }
 
@@ -87,7 +87,7 @@ footer {
   width: 100%;
   height: 100%;
   background-size: cover;
-  font-style: italic;
+  font-family: "Encode Sans", sans-serif;
 }
 
 .background {
@@ -132,7 +132,7 @@ footer {
 }
 
 h1 {
-  font-family: cursive;
+  font-family: "Encode Sans", sans-serif;
 }
 
 .input-group {
@@ -143,27 +143,27 @@ h1 {
 @media only screen and (min-width: 1024px) {
   .background .description .presentacion h2 {
     font-size: 30px;
-    font-family: cursive;
+    font-family: "Encode Sans", sans-serif;
   }
   .background .description .presentacion .fw-bold {
-    font-size: 20px;
-    font-family: cursive;
+    font-size: 30px;
+    font-family: "Encode Sans", sans-serif;
   }
   .la .ubicacion h2 {
     font-size: 30px;
-    font-family: cursive;
+    font-family: "Encode Sans", sans-serif;
   }
   .la .ubicacion .fw-bold {
-    font-size: 20px;
-    font-family: cursive;
+    font-size: 30px;
+    font-family: "Encode Sans", sans-serif;
   }
   .los .clientes h2 {
     font-size: 30px;
-    font-family: cursive;
+    font-family: "Encode Sans", sans-serif;
   }
   .los .clientes .fw-bold {
-    font-size: 20px;
-    font-family: cursive;
+    font-size: 30px;
+    font-family: "Encode Sans", sans-serif;
   }
 }
 /*cambio de background*/
