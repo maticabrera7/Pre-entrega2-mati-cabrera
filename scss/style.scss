@@ -134,15 +134,17 @@ footer{
 			margin-left: 17%;
 		}
 	}
+
 	.whatsapp-btn-container {
 		
-		right: 1%;
-		bottom: 50px;
-		padding: 3%;
-		p{
+		bottom: 45px;
+		
+		span{
+
+			position: absolute;
+			left: 50%;
 			font-family: "roboto", sans-serif;
 			font-weight: bold ;
-			text-align: center;
 			font-size: large;
 			transform: rotateZ(20deg) translateX(10px);
 			opacity: 0;
@@ -150,16 +152,17 @@ footer{
 		}
 	}
 
-	.whatsapp-btn-container:hover p {
+	.whatsapp-btn-container:hover span {
 		transform: rotateZ(0deg) translateX(0px);
-			opacity: 1;
+		opacity: 1;
+		color: #0c652d;
 	}
 
 
 	.whatsapp-btn-container .whatsapp-btn {
 		font-size: 50px;
 		color: #25d366;
-		margin-left: 48%;
+		margin-left: 51%;
 		display: inline-block;
 		transition: all 400ms;
 	}
